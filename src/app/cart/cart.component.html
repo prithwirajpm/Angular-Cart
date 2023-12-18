@@ -1,0 +1,64 @@
+<div>
+
+  <div style="height: 80vh;"
+    class="empty-cart mb-5  d-flex justify-content-center align-items-center  w-100  flex-column ">
+    <img style="width: 30rem;"
+      src="https://cdni.iconscout.com/illustration/premium/thumb/confusing-woman-due-to-empty-cart-4558760-3780056.png"
+      alt="">
+
+    <h2 class=" text-danger fw-bolder">Your car in Empty !!</h2>
+    <button class=" btn btn-success ">Add More Items </button>
+
+  </div>
+
+  <div class="wishlist">
+    <div class="container px-4 px-lg-5 mt-5">
+      <h2 class="text-danger  text-center m-5 fw-bolder"> cart summary....</h2>
+      <div class="row">
+        <div class="col-lg-8">
+          <table class="table shadow">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Product name </th>
+                <th>immages</th>
+                <th> quantity</th>
+                <th>price</th>
+                <th><button class="btn"><i class="fa-solid fa-ellipsis-vertical"></i></button></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>name </td>
+                <td><img width="100px" height="100px" src="" alt=""></td>
+                <td>
+                 <div class="d-flex">
+                    <button class="btn  fw-bolder">-</button>
+                    <input class="form-control text-center "  id="inputQuantity"   readonly type="num" value="1" style="max-width: 3rem" />
+
+                    <button class="btn fw-bolder">+</button>
+                 </div>
+
+                </td>
+                <td>$300</td>
+                <td><i class="fa-sharp fa-solid fa-trash"></i></td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <div class="border  rounded p-3">
+            <h3>sub Total :<span class="text-danger fw-bolder">$300</span></h3>
+            <hr>
+            <div class="d-grid">
+              <button class="btn btn-primary">check out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

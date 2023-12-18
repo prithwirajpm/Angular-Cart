@@ -1,0 +1,37 @@
+<!-- header.component.html -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink=''><i class="fa-solid ms-5 fa-cart-flatbed-suitcase"></i><span class="ms-3 text-success fw-bolder ">D-CART</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <form class="d-flex" role="search ">
+          <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+          <button style="margin-left: -90px;" class="btn " type="submit"><i class="fa-brands fa-searchengin"></i></button>
+        </form>
+        <li class="nav-item ms-4">
+          <a class="nav-link active" aria-current="page" routerLink="user/wishlist">
+
+            <button class="btn btn-outline-success me-2" type="button"><i class="fa-solid fa-hand-holding-heart"></i>Wishlist
+              <span class="mb-3">0</span> </button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="user/cart">
+            <button class="btn btn-outline-success me-2" type="button">Cart</button>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="user/login">
+            <button class="btn btn-outline-success me-2" type="button">login</button>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
